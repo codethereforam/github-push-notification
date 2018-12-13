@@ -1,0 +1,18 @@
+module.exports = {
+    server: {
+        listenPort: 4321
+    },
+    mail: {
+        service: 'smtp.163.com',
+        host: 'smtp.163.com',
+        secure: true,
+        port: 994,
+        authUser: 'xxx@163.com',
+        authPass: 'xxxxxx',
+        from: '"xxx\'s program" <xxx@163.com>',
+        to: 'xxx@163.com'
+    },
+    encryption: {
+            secret: 'GitHub Webhooks Secret'
+    }
+};
